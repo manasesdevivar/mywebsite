@@ -1,41 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manases De Vivar - Virtual Assistant</title>
-    <link rel="stylesheet" href="css/styles.css">
-    
-    <!-- Font Awesome CDN for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manases De Vivar - Luxury Resume</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+<!-- AOS Animation Library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 </head>
 <body>
-    <div class="container">
-        <img src="images/profile.jpg" alt="Manases De Vivar" class="profile-pic">
-        <h1>Manases De Vivar</h1>
-        <h2>Virtual Assistant</h2>
-        <h3>Main Role: OSINT Analyst</h3>
-        <p>Also skilled in:</p>
-        <p>Penetration Testing, Network Security,<br>Graphic Design, Cryptocurrency Trading & Research</p>
-        
-        <div class="socials">
-            <p>Business Fanpages:</p>
-            <p>
-                <a href="anonriderph.html">@anonriderph</a> |
-                <a href="reziessence.html">@reziessence</a>
-            </p>
+    
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out',
+    once: true
+  });
+</script>
 
-            <p>Connect with me:</p>
-            <p>
-                <a href="https://www.linkedin.com/in/manasesdevivar/" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                &nbsp;
-                <a href="https://www.upwork.com/freelancers/manasesdevivar" target="_blank" title="Upwork">
-                    <i class="fa-brands fa-upwork fa-2x"></i>
-                </a>
-            </p>
-        </div>
-    </div>
+
+  <div class="resume-wrapper">
+
+    <!-- Luxury Header -->
+    <header class="lux-header">
+      <img src="images/profile.jpg" alt="Manases De Vivar" class="profile-pic" />
+      <div class="intro-text">
+        <h1>Manases De Vivar</h1>
+        <h2>Tech-Savvy Virtual Assistant</h2>
+        <h3>OSINT Analyst</h3>
+      </div>
+    </header>
+
+    <!-- Main Resume Content -->
+   <main class="lux-content">
+  <section class="section" data-aos="fade-up">
+    <h4>Profile Summary</h4>
+    <p>Tech-Savvy Virtual Assistant with deep expertise in OSINT investigations, penetration testing, and secure network operations. Known for precise intelligence gathering and data-driven insights in fast-paced environments.</p>
+  </section>
+
+  <section class="section" data-aos="fade-up" data-aos-delay="100">
+    <h4>Core Competencies</h4>
+    <ul class="skills">
+       <li>Penetration Testing</li>
+          <li>OSINT / Threat Intelligence</li>
+          <li>AI Automation</li>
+          <li>Network Security</li>
+          <li>Social Media Designer</li>
+          <li>Crypto Research & Trading</li>
+    </ul>
+  </section>
+
+  <section class="section" data-aos="fade-up" data-aos-delay="200">
+    <h4>Tools & Platforms</h4>
+    <ul class="skills">
+         <li>Wireshark</li>
+          <li>Nmap</li>
+          <li>Burp Suite</li>
+          <li>Osint Industries</li>
+          <li>Sherlock</li>
+          <li>Maltego</li>
+          <li>Operator Chatgpt</li>
+          <li>Canva Pro</li>
+          <li>TradingView</li>
+    </ul>
+  </section>
+
+  <section class="section" data-aos="fade-up" data-aos-delay="300">
+    <h4>Business Pages</h4>
+    <a href="anonriderph.html">@anonriderph</a> |
+    <a href="reziessence.html">@reziessence</a>
+  </section>
+
+  <section class="section social" data-aos="fade-up" data-aos-delay="400">
+    <h4>Connect with Me</h4>
+    <a href="https://linkedin.com/in/manasesdevivar" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://upwork.com/freelancers/manasesdevivar" target="_blank"><i class="fab fa-upwork"></i> Upwork</a>
+  </section>
+</main>
+
+  </div>
 </body>
 </html>
