@@ -34,9 +34,11 @@ body {
   height: 200px;
   border-radius: 50%;
   border: 3px solid #D4AF37;
-  overflow: hidden;      /* crop anything outside circle */
-  margin: 0 auto 20px;   /* centers above text */
+  object-fit: cover;        /* fills the circle */
+  object-position: center;  /* keeps your face centered */
+  background-color: #000;   /* optional: filler */
 }
+
 
 .intro-text h1 {
   font-family: 'Playfair Display', serif;
@@ -131,6 +133,7 @@ body {
 .intro-text h1 {
   animation: goldPulse 3s infinite ease-in-out;
 }
+
 
 
 
