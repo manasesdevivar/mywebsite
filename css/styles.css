@@ -30,13 +30,12 @@ body {
 
 
 .profile-pic {
-  transform: scale(1.1); /* optional, can remove */
-  object-fit: cover;     /* <-- this fixes the issue */
-  background-color: #000;
-  border-radius: 50%;
   width: 200px;
   height: 200px;
+  border-radius: 50%;
   border: 3px solid #D4AF37;
+  object-fit: cover;       /* makes sure it fills the circle */
+  transform: scale(1.15);  /* zoom in a bit */
 }
 
 .intro-text h1 {
@@ -132,4 +131,5 @@ body {
 .intro-text h1 {
   animation: goldPulse 3s infinite ease-in-out;
 }
+
 
