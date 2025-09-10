@@ -30,9 +30,9 @@ body {
 
 
 .profile-pic {
-  transform: scale(1.1); /* Adjust zoom level */
- object-fit: contain;
-background-color: #000; /* optional: helps with spacing around image */
+  transform: scale(1.1); /* optional, can remove */
+  object-fit: cover;     /* <-- this fixes the issue */
+  background-color: #000;
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -132,3 +132,4 @@ background-color: #000; /* optional: helps with spacing around image */
 .intro-text h1 {
   animation: goldPulse 3s infinite ease-in-out;
 }
+
