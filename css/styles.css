@@ -36,7 +36,7 @@ body {
   border: 3px solid #D4AF37;
   object-fit: cover;      
   object-position: center; /* centers your face */
-  transform: scale(1.5);   /* zoom in more */
+  transform: scale(2.0);   /* zoom in more */
 }
 
 
@@ -133,6 +133,7 @@ body {
 .intro-text h1 {
   animation: goldPulse 3s infinite ease-in-out;
 }
+
 
 
 
